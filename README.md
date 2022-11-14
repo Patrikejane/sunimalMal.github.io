@@ -2,6 +2,63 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
 
+# Project Structure
+
+```bash
+
+app
+├──atom
+       ├──text-component
+                ├── text-component.component.html
+                ├── text-component.component.css
+                ├── text-component.component.spec.ts
+                ├── text-component.component.ts
+├──Molecules
+├──Organisms
+├──home-component
+       ├──education-component
+                    ├── education-component.component.html
+                    ├── education-component.component.css
+                    ├── education-component.component.spec.ts
+                    ├── education-component.component.ts
+       ├──experience-component
+                    ├── experience-component.component.html
+                    ├── experience-component.component.css
+                    ├── experience-component.component.spec.ts
+                    ├── experience-component.component.ts
+       ├── home-component.component.html
+       ├── home-component.component.css
+       ├── home-component.component.spec.ts
+       ├── home-component.component.ts
+├──about-component
+       ├── about-component.component.html
+       ├── about-component.component.css
+       ├── about-component.component.spec.ts
+       ├── about-component.component.ts
+├──help-component
+       ├── help-component.component.html
+       ├── help-component.component.css
+       ├── help-component.component.spec.ts
+       ├── help-component.component.ts
+├──profile-component
+       ├── profile-component.component.html
+       ├── profile-component.component.css
+       ├── profile-component.component.spec.ts
+       ├── profile-component.component.ts
+├── app.component.html
+├── app.component.css
+├── app.component.spec.ts
+├── app.component.ts
+├── app.constant.ts
+├── app.module.ts
+├── app.routing.ts
+├── app.material.module.ts
+
+
+```
+
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.

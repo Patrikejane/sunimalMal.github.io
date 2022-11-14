@@ -12,6 +12,7 @@ import {TextComponentComponent} from "./atoms/text-component/text-component.comp
 import {EducationComponentComponent} from "./home-component/education-component/education-component.component";
 import {AboutComponentComponent} from "./about-component/about-component.component";
 import {ExperienceComponentComponent} from "./home-component/experience-component/experience-component.component";
+import {LogocardComponentComponent} from "./home-component/logocard-component/logocard-component.component";
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import {ExperienceComponentComponent} from "./home-component/experience-componen
     TextComponentComponent,
     EducationComponentComponent,
     AboutComponentComponent,
-    ExperienceComponentComponent
+    ExperienceComponentComponent,
+    LogocardComponentComponent
   ],
   imports: [
     BrowserModule,
