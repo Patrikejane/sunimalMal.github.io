@@ -1,14 +1,21 @@
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 1000px) {
   .logo-size{
     width: 90px;
     height: 90px;
   }
 }
 
-@media only screen and (min-width: 300px) {
+@media only screen and (min-width: 550px) and (max-width:1000px) {
   .logo-size{
-    width: 20px;
-    height: 20px;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .logo-size{
+    width: 10px;
+    height: 10px;
   }
 }

@@ -14,16 +14,37 @@ mat-sidenav {
   text-align: center;
 }
 
-/*content*/
-.content {
-  height: fit-content;
-  border-radius: 10px;
-  margin: 5px;
-  margin-left: 20px;
-  display: flex;
-  font-size: 2rem;
-  color: lightgray;
+
+
+@media only screen and (min-width: 400px) {
+  /*content*/
+  .content {
+    height: 98%;
+    border-radius: 10px;
+    margin: 5px;
+    margin-left: 20px;
+    display: flex;
+    font-size: 2rem;
+    color: lightgray;
+  }
 }
+
+@media only screen and (max-width: 400px) {
+  /*content*/
+  .content {
+    height: fit-content;
+    border-radius: 10px;
+    margin: 5px;
+    margin-left: 20px;
+    display: flex;
+    font-size: 2rem;
+    color: lightgray;
+  }
+}
+
+
+
+
 
 mat-sidenav-container {
   height: 98%;
