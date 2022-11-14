@@ -7,6 +7,10 @@ import {AboutComponentComponent} from "./about-component/about-component.compone
 
 export const routes: Routes = [
     {
+      path: '',
+      component: HomeComponentComponent,
+    },
+    {
       path: 'home',
       component: HomeComponentComponent,
     },

@@ -1,0 +1,70 @@
+
+<div  class="main-viewer">
+  <div class="viewer-title">
+    <div class="viewer-title-spacer">Experience</div>
+  </div>
+
+  <mat-accordion>
+    <mat-expansion-panel hideToggle class="current-Experience" (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false">
+      <mat-expansion-panel-header >
+        <mat-panel-title>
+          IT Engineer
+        </mat-panel-title>
+        <mat-panel-description>
+          NTT DATA MSE Corporation. (October 2021 -Present)
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <p>Currently working as a Outsource Engineer on Client site contributing as a Back-end Engineer. Maintain the current System and Adding new features. Creating new services / APIs and also front-end bug fix developments. Handling Deployments, Server Monitoring and maintainace.
+        Technology - Java 11 | Spring Boot 2| HTML/CSS/Js | MySQL | AWS</p>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          IT Engineer
+        </mat-panel-title>
+        <mat-panel-description>
+          NEC Solution Inovator (Auguest 2019- October 2021)  <!--{{panelOpenState ? ': Detailed' : ': Summery'}}-->
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <p> Worked as a Outsource Engineer on Client site in the field related to  pos applications and web Development. Leading the Team  Worked as a resource person to help learning and development in angular Technology - Java 8 | WPF applications | Spring Batch | angular 8 | PostgreSQL</p>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Software Engineer
+        </mat-panel-title>
+        <mat-panel-description>
+          HaulMatic Technologies (Pvt) Ltd. (December 2018 - july 2019)  <!--{{panelOpenState ? ': Detailed' : ': Summery'}}-->
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <p> Supply Chain Manegement System which forcusing on
+        minimizing interme diaries by digitize all the stakeholders in global trading on
+        to a single platform and introduce Block-chain into the process.</p>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Associate / Software Engineer
+        </mat-panel-title>
+        <mat-panel-description>
+          Synergenhealth LLC (Pvt) Ltd. (Jul 2018 - February 2019)  <!--{{panelOpenState ? ': Detailed' : ': Summery'}}-->
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <p> E2E Solution with AMD (Advanced MD Practise Management System)
+        that provide a solution to process Collection and Denial of
+        Insurace claims for USA Health care labs.
+
+        Separate Application working Independently From CDMS application to retrive updates from
+        AMD practise management system to synchronize CDMS data with AMD practise management system .
+
+      </p>
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>

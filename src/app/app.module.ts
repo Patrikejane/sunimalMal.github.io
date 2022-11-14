@@ -11,6 +11,7 @@ import {ProfileComponentComponent} from "./profile-component/profile-component.c
 import {TextComponentComponent} from "./atoms/text-component/text-component.component";
 import {EducationComponentComponent} from "./home-component/education-component/education-component.component";
 import {AboutComponentComponent} from "./about-component/about-component.component";
+import {ExperienceComponentComponent} from "./home-component/experience-component/experience-component.component";
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import {AboutComponentComponent} from "./about-component/about-component.compone
     ProfileComponentComponent,
     TextComponentComponent,
     EducationComponentComponent,
-    AboutComponentComponent
+    AboutComponentComponent,
+    ExperienceComponentComponent
   ],
   imports: [
     BrowserModule,
