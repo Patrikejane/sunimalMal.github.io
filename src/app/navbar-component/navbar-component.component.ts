@@ -1,6 +1,7 @@
 import {ChangeDetectorRef, Component, OnInit, ViewChild} from '@angular/core';
 import {MatDrawerMode, MatSidenav} from "@angular/material/sidenav";
 import {BreakpointObserver} from "@angular/cdk/layout";
+import {ActivatedRoute, Router} from "@angular/router";
 
 @Component({
   selector: 'app-navbar-component',
@@ -11,7 +12,7 @@ export class NavbarComponentComponent implements OnInit {
   @ViewChild(MatSidenav)
   sidenav!: MatSidenav;
 
-  constructor(private observer: BreakpointObserver,private cdRef : ChangeDetectorRef) {
+  constructor(private observer: BreakpointObserver,private cdRef : ChangeDetectorRef,private router: Router, private route: ActivatedRoute) {
   }
 
   ngAfterViewInit() {
@@ -29,4 +30,14 @@ export class NavbarComponentComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+  // navigate(path: any) {
+  //   this.router.navigate([{outlets: {primary: path, sidemenu:path}}],
+  //     {relativeTo: this.route});
+  // }
+
+  navigate(path: any) {
+    this.router.navigate(['/'+path, {  }]);
+  }
+
 }

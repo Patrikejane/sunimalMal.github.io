@@ -6,11 +6,21 @@ import { NavbarComponentComponent } from './navbar-component/navbar-component.co
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {AppMaterialModule} from "./app.material.module";
 import {routing} from "./app.routing";
+import {HomeComponentComponent} from "./home-component/home-component.component";
+import {ProfileComponentComponent} from "./profile-component/profile-component.component";
+import {TextComponentComponent} from "./atoms/text-component/text-component.component";
+import {EducationComponentComponent} from "./home-component/education-component/education-component.component";
+import {AboutComponentComponent} from "./about-component/about-component.component";
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponentComponent
+    NavbarComponentComponent,
+    HomeComponentComponent,
+    ProfileComponentComponent,
+    TextComponentComponent,
+    EducationComponentComponent,
+    AboutComponentComponent
   ],
   imports: [
     BrowserModule,
